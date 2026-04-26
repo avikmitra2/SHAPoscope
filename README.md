@@ -7,4 +7,4 @@ hidden_layer_1_weights.csv, hidden_layer_2_weights.csv, etc., are for weight val
 
 hidden_layer_1_shap_values.csv, hidden_layer_3_shap_values.csv, etc., are for SHAP value signifying contributions of features to the neurons of the corresponding layers. Note that there is dropout layer after each hidden layer, so - L1 --> 1, L2 --> 3, L3 --> 5, Output layer --> 7.
 
-Post-trainin CSV files containing data starts with "post_training_".
+Post-training CSV files containing data starts with "post_training_".
