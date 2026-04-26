@@ -8,3 +8,5 @@ hidden_layer_1_weights.csv, hidden_layer_2_weights.csv, etc., are for weight val
 hidden_layer_1_shap_values.csv, hidden_layer_3_shap_values.csv, etc., are for SHAP value signifying contributions of features to the neurons of the corresponding layers. Note that there is dropout layer after each hidden layer, so - L1 --> 1, L2 --> 3, L3 --> 5, Output layer --> 7.
 
 Post-training CSV files containing data starts with "post_training_".
+
+feature_frequency_layer1.csv, feature_frequency_layer3.csv, etc., contains the frequency of occurrence of features among all the neurons of a layer, that have maximum SHAPley values within a neuron. Maximum SHAPley value is identified among each neuron of a layer, and then the feature occurrence is observed among all the neurons of the layer. Then the frequency table is created for each epoch of a layer.
