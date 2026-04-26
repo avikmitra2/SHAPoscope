@@ -10,3 +10,5 @@ hidden_layer_1_shap_values.csv, hidden_layer_3_shap_values.csv, etc., are for SH
 Post-training CSV files containing data starts with "post_training_".
 
 feature_frequency_layer1.csv, feature_frequency_layer3.csv, etc., contains the frequency of occurrence of features among all the neurons of a layer, that have maximum SHAPley values within a neuron. Maximum SHAPley value is identified among each neuron of a layer, and then the feature occurrence is observed among all the neurons of the layer. Then the frequency table is created for each epoch of a layer.
+
+grouped_feature_stats_layer1.csv, grouped_feature_stats_layer3.csv, etc., contains trend of descriptive statistics, layer-by-layer (separate file for each layer). Each file contains epoch-by-epoch descriptive statistics for each of the contributing feature (descriptive statistics of the SHAPley values), grouped by the type of the descriptive statistic parameters (for example, all means of the features are grouped together).
