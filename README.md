@@ -23,3 +23,5 @@ Descriptive Statistics for weights and biases for each layer (separate CSV files
 layer 1 - hidden layer1; layer 2 - hidden layer2; layer 3 - hidden layer 3; layer 4 - output layer.
 Files: layer_1_weights_stats.csv, layer_1_biases_stats.csv, layer_2_weights_stats.csv, layer_2_biases_stats.csv, etc.
 
+correlation_layer_1.csv, correlation_layer_2.csv and correlation_layer_3.csv contains correlation between mean values of neuron weights of each of the hidden layers with corresponding SHAPley values, epoch-by-epoch for each hidden layer. Separate CSV file for each layer.
+
