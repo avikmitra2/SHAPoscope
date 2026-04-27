@@ -25,3 +25,5 @@ Files: layer_1_weights_stats.csv, layer_1_biases_stats.csv, layer_2_weights_stat
 
 correlation_layer_1.csv, correlation_layer_2.csv and correlation_layer_3.csv contains correlation between mean values of neuron weights of each of the hidden layers with corresponding SHAPley values, epoch-by-epoch for each hidden layer. Separate CSV file for each layer.
 
+Post-training CSV files starts with "post_training".
+Post-training CSV files uploaded. Note that 1 (hidden layer 1) --> 1, 2 (hidden layer 2) -->3, 3 (hidden layer 3) --> 5, 4 (output layer) --> 7, as applicable.
