@@ -13,7 +13,7 @@ feature_frequency_layer1.csv, feature_frequency_layer3.csv, etc., contains the f
 
 grouped_feature_stats_layer1.csv, grouped_feature_stats_layer3.csv, etc., contains trend of descriptive statistics, layer-by-layer (separate file for each layer). Each file contains epoch-by-epoch descriptive statistics for each of the contributing feature (descriptive statistics of the SHAPley values), grouped by the type of the descriptive statistic parameters (for example, all means of the features are grouped together).
 
-The hidden_layer_1_neuron_to_output_shap.csv, hidden_layer_3_neuron_to_output_shap.csv, hidden_layer_5_neuron_to_output_shap.csv files for hidden-layer 1, 2 and 3 respectively, contains the following information:
+The hidden_layer_1_neuron_to_output_shap_descriptive_stats.csv, hidden_layer_3_neuron_to_output_shap_descriptive_stats.csv, hidden_layer_5_neuron_to_output_shap_descriptive_stats.csv files for hidden-layer 1, 2 and 3 respectively, contains the following information:
 (1) Epoch-by-epoch, number of neurons with 0 values, negative values and positive values.
 (2) Descriptive statistics (Mean, median and mode; Standard Deviation, min, max, quartiles; Skewness & Kurtosis) epoch-by-epoch:
    (2.1) Including the 0 SHAPley values.
