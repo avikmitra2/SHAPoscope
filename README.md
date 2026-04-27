@@ -18,3 +18,8 @@ The hidden_layer_1_neuron_to_output_shap_descriptive_stats.csv, hidden_layer_3_n
 (2) Descriptive statistics (Mean, median and mode; Standard Deviation, min, max, quartiles; Skewness & Kurtosis) epoch-by-epoch:
    (2.1) Including the 0 SHAPley values.
    (2.2) excluding the 0 SHAPley values.
+
+Descriptive Statistics for weights and biases for each layer (separate CSV files for weights and biases and layers):
+layer 1 - hidden layer1; layer 2 - hidden layer2; layer 3 - hidden layer 3; layer 4 - output layer.
+Files: layer_1_weights_stats.csv, layer_1_biases_stats.csv, layer_2_weights_stats.csv, layer_2_biases_stats.csv, etc.
+
