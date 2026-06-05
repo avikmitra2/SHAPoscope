@@ -28,4 +28,6 @@ correlation_layer_1.csv, correlation_layer_2.csv and correlation_layer_3.csv con
 Post-training CSV files starts with "post_training".
 Post-training CSV files uploaded. Note that 1 (hidden layer 1) --> 1, 2 (hidden layer 2) -->3, 3 (hidden layer 3) --> 5, 4 (output layer) --> 7, as applicable.
 
+weight_trend_ANN.py analyses the changes in the weight layer-by-layer, epoch-by-epoch. The (Euclidean) distance between the weight vectors in subsequent epochs are provided in weight_changes.csv file.
+
 SVG files are summary plot and force plot.
