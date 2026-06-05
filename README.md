@@ -31,3 +31,7 @@ Post-training CSV files uploaded. Note that 1 (hidden layer 1) --> 1, 2 (hidden 
 weight_trend_ANN.py analyses the changes in the weight layer-by-layer, epoch-by-epoch. The (Euclidean) distance between the weight vectors in subsequent epochs are provided in weight_changes.csv file.
 
 SVG files are summary plot and force plot.
+
+shap_trend_feature_to_layer.py analyses layer-by-layer and epoch-by-epoch changes in the SHAP values (feature to neurons, hence layer) by finding distance between the subsequent vector of SHAP values. Result file is shap_changes.csv.
+
+shap_trend_neuronLayer_to_output.py analyses layer-by-layer and epoch-by-epoch changes in the SHAP values (neurons to output, hence layer to output) by finding distance between the subsequent vector of SHAP values. Result file is neuron_to_output_shap_changes.csv.
