@@ -32,6 +32,8 @@ weight_trend_ANN.py analyses the changes in the weight layer-by-layer, epoch-by-
 
 SVG files are summary plot and force plot.
 
+weight_tren_ANN.py analyses layer-by-layer and epoch-by-epoch changes in the weight values by finding distance between the subsequent vector of weight values. Result file is weight_changes.csv.
+
 shap_trend_feature_to_layer.py analyses layer-by-layer and epoch-by-epoch changes in the SHAP values (feature to neurons, hence layer) by finding distance between the subsequent vector of SHAP values. Result file is shap_changes.csv.
 
 shap_trend_neuronLayer_to_output.py analyses layer-by-layer and epoch-by-epoch changes in the SHAP values (neurons to output, hence layer to output) by finding distance between the subsequent vector of SHAP values. Result file is neuron_to_output_shap_changes.csv.
