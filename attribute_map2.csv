@@ -1,0 +1,44 @@
+attr_sr_no,col_id,attr_lbl,attr_name,col_type,attr_category
+0,A,duration,Duration,continuous,basic
+1,B,protocol,Protocol Type,discrete,basic
+2,C,service,Service,discrete,basic
+3,D,flag,Flag,discrete,basic
+4,E,src_bytes,Src-Bytes,continuous,basic
+5,F,dst_bytes,Dst-Bytes,continuous,basic
+6,G,land,Land,discrete,basic
+7,H,wrng_frag,Wrong Fragment,continuous,basic
+8,I,urg,Urgent,continuous,basic
+9,J,hot,Hot,continuous,content
+10,K,nfl,Number of Failed Logins,continuous,content
+11,L,logged_in,Logged-in,discrete,content
+12,M,num_com,Num-compromised,continuous,content
+13,N,root_shell,Root-Shell,continuous,content
+14,O,su_atmpt,SU-Attempted,continuous,content
+15,P,num_root,Num-root,continuous,content
+16,Q,num_file_create,Number of File Creations,continuous,content
+17,R,num_shell,Num-shells,continuous,content
+18,S,num_access_file,Num-access-files,continuous,content
+19,T,num_otbnd_cmds,Number-outbound-commands,continuous,content
+20,U,is_hst_log,Is-host-login,discrete,content
+21,V,is_gst_log,Is-guest-login,discrete,content
+22,W,count,Count,continuous,time_based
+23,X,srv_count,Srv-count,continuous,time_based
+24,Y,serr_rate,Serror-rate,continuous,time_based
+25,Z,srv_serr_rate,Srv-serror-rate,continuous,time_based
+26,AA,rerror_rate,Rerror-rate,continuous,time_based
+27,AB,srv_rerror_rate,Srv-rerror-rate,continuous,time_based
+28,AC,same_srv_rate,Same-srv-rate,continuous,time_based
+29,AD,diff_srv_rate,Diff-srv-rate,continuous,time_based
+30,AE,srv_diff_hst_rate,Srv-diff-host-rate,continuous,time_based
+31,AF,dst_hst_count,Dst-host-count,continuous,host_based
+32,AG,dst_hst_srv_count,Dst-host-srv-count,continuous,host_based
+33,AH,dst_hst_same_srv_rate,Dst-host-same-srv-rate,continuous,host_based
+34,AI,dst_hst_diff_srv_rate,Dst-host-diff-srv-rate,continuous,host_based
+35,AJ,dst_hst_same_src_port_rate,Dst-host-same-src-port-rate,continuous,host_based
+36,AK,dst_hst_srv_diff_hst_rate,Dst-host-srv-diff-host-rate,continuous,host_based
+37,AL,dst_hst_serror_rate,Dst-host-serror-rate,continuous,host_based
+38,AM,dst_hst_srv_serror_rate,Dst-host-srv-serror-rate ,continuous,host_based
+39,AN,dst_hst_error_rate,Dst-host-rerror-rate,continuous,host_based
+40,AO,dst_hst_srv_rerror_rate,Dst-host-srv-rerror-rate,continuous,host_based
+41,AP,attack,Attack-name,discrete,
+42,AQ,? (not_found),? (No description found),unknown,
