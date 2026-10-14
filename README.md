@@ -37,3 +37,5 @@ weight_tren_ANN.py analyses layer-by-layer and epoch-by-epoch changes in the wei
 shap_trend_feature_to_layer.py analyses layer-by-layer and epoch-by-epoch changes in the SHAP values (feature to neurons, hence layer) by finding distance between the subsequent vector of SHAP values. Result file is shap_changes.csv.
 
 shap_trend_neuronLayer_to_output.py analyses layer-by-layer and epoch-by-epoch changes in the SHAP values (neurons to output, hence layer to output) by finding distance between the subsequent vector of SHAP values. Result file is neuron_to_output_shap_changes.csv.
+
+The python file ArrangeSHAP_OutputLayer.py takes hidden_layer_7_shap_values.csv and attribute_map2.csv, and arranges the feature values according to the SHAP values, in non-increasing order and epoch-by-epoch. It also states the corresponding "attr_category", that is, attribute category.
